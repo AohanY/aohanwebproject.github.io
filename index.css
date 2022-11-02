@@ -1,6 +1,7 @@
 body {
     padding: 1.6%;
     background-color: cadetblue;
+    
 }
 header {
     display: grid;
@@ -12,10 +13,8 @@ section {
 }
 nav {
     display: grid;
-    gap: 3%;
+    width: 100%;
     text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-    
 }
 figure {
     margin-left: 0px;
@@ -73,5 +72,12 @@ img {
     }
     img {
         height: 80%;
+    }
+    nav {
+        display: grid;
+        gap: 3%;
+        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+        
     }
 }
