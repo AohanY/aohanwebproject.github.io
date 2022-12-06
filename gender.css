@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+header {
+    flex: 4;
+    order: 1;
+    padding: 15px;
+    text-align: center;
+}
+nav{
+    flex: 4;
+    order: 2;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    padding-top: 13px;
+    font-size: 110%;
+}
+section {
+    flex: 4;
+    order: 3;
+}
+aside {
+    gap: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+img {
+    float: left;
+    padding-bottom: 15px;
+    width: 20%;
+}
+.nav_list {
+    list-style-type: none; /* To remove the bullets */
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1em;
+    flex-basis: 100%;
+    padding-left: 0.5%;
+}
+li {
+    border-bottom: 1px solid #bbb;
+}
+a:link {
+    color: white;
+    /* Remove link underline */
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited {
+    color: violet;
+    text-decoration: none;
+}
+/* Mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* Selected link */
+a:active {
+    color: chartreuse;
+}
+.current_link {
+    color: chartreuse;
+}
+@media only screen and (min-width: 768px) {
+   header {
+    letter-spacing: 1px;
+    font-size: 110%;
+   } 
+   .nav_list {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    gap: 2em;
+   } 
+   section {
+    display: flex;
+    gap: 20px;
+   }
+   img {
+    float: none;
+    width: 110%;
+   }
+}
+
