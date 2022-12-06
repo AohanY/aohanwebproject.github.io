@@ -63,9 +63,6 @@ a:hover {
 a:active {
     color: chartreuse;
 }
-.current_link {
-    color: chartreuse;
-}
 @media only screen and (min-width: 768px) {
    header {
     letter-spacing: 1px;
