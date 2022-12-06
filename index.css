@@ -1,5 +1,5 @@
 body {
-    padding: 1.6%;
+    padding: 1.6%;  /*To generate space inside of the defined borders.*/
     background-color: cadetblue;
     
 }
@@ -27,37 +27,37 @@ figcaption {
 }
 img {
     width: 100%;
-    height: 92%;
+    height: 80%;
     gap: 200%;
 }
 .picregret {
     position: relative;
     bottom: 22%;
-    font-size: 180%;
+    font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 }
 .picgender {
     position: relative;
      bottom: 22%;
-    font-size: 180%;
+    font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 } 
 .picharm {
     position: relative;
     bottom: 22%;
-    font-size: 180%;
+    font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 }
 .picletgo {
     position: relative;
     bottom: 22%;
-    font-size: 180%;
+    font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 }
 .picvalue {
     position: relative;
     bottom: 22%;
-    font-size: 180%;
+    font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 }
 @media only screen and (min-width: 768px) {
