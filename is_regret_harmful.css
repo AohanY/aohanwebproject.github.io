@@ -28,6 +28,9 @@ aside {
     padding: 15px;
     background-color: whitesmoke;
 }
+h4 {
+    letter-spacing: 120%;
+}
 img {
     float: left;
     padding-bottom: 15px;
@@ -92,7 +95,7 @@ a:active {
     gap: 20px;
    }
    aside {
-    max-width: 100%;
+    width: 140px;
    }
    img {
     float: none;
@@ -101,6 +104,7 @@ a:active {
    article {
     font-size: 110%;
     letter-spacing: 105%;
+    margin-right: 1em;
    }
 }
 

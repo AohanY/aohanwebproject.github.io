@@ -28,6 +28,9 @@ aside {
     padding: 15px;
     background-color: whitesmoke;
 }
+h4 {
+    letter-spacing: 120%;
+}
 img {
     float: left;
     padding-bottom: 15px;
@@ -38,7 +41,7 @@ figure {
     font-size: 90%;
 }
 img.paragraph_pic {
-    width: 50%;
+    width: 43%;
     min-width: 280px;
     position: relative;
     float: none;
@@ -55,6 +58,13 @@ img.paragraph_pic {
 }
 li {
     border-bottom: 1px solid #bbb;
+}
+.content {
+    border: none;
+}
+.paragraph {
+    border: none;
+    list-style-type: disc;
 }
 a:link {
     color: white;
@@ -92,7 +102,7 @@ a:active {
     gap: 20px;
    }
    aside {
-    max-width: 100%;
+    width: 140px;
    }
    img {
     float: none;
