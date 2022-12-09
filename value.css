@@ -92,10 +92,10 @@ a:active {
    .nav_list {
     display: flex;
     flex-flow: row wrap;
-    flex-grow: 1;
+    flex-grow: 1; /* To make all items get the same share of remaining space */
     gap: 2em;
     font-size: 110%;
-    letter-spacing: 110%;
+    letter-spacing: 0.52px;
    } 
    section {
     display: flex;
@@ -110,7 +110,7 @@ a:active {
    }
    article {
     font-size: 110%;
-    letter-spacing: 105%;
+    letter-spacing: 0.31px;
    }
 }
 
