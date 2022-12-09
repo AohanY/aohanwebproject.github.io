@@ -31,7 +31,7 @@ aside {
     width: 100%;
 }
 h4 {
-    letter-spacing: 120%;
+    letter-spacing: 0.15px;
 }
 img {
     float: left;
