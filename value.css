@@ -75,9 +75,6 @@ img.paragraph_pic {
 li {
     border-bottom: 1px solid #bbb;
 }
-.content_list {
-    border: none;
-}
 .paragraph {
     border: none;
     list-style-type: disc;
