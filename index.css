@@ -1,10 +1,15 @@
 body {
+    display: grid;
     padding: 1.6%;  /*To generate space inside of the defined borders.*/
     background-color: cadetblue;
     
 }
 header {
-    display: grid;
+    text-align: center;
+}
+footer {
+    font-size: 90%;
+    margin-top: 15px;
     text-align: center;
 }
 section {
@@ -12,13 +17,13 @@ section {
     font-size: 120%;
 }
 nav {
-    display: grid;
     width: 100%;
     text-align: center;
 }
 figure {
     margin-left: 0px;
     margin-right: 0px;
+    height: 90%;
     text-align: center;
 }
 figcaption {
@@ -30,33 +35,17 @@ img {
     height: 80%;
     gap: 200%;
 }
-.picregret {
-    position: relative;
-    bottom: 22%;
-    font-size: 150%;
-    background-color: rgba(255, 255, 255,0.6);
+.html_logo {
+    width: 31px;
+    height: 31px;
 }
-.picgender {
-    position: relative;
-     bottom: 22%;
-    font-size: 150%;
-    background-color: rgba(255, 255, 255,0.6);
-} 
-.picharm {
-    position: relative;
-    bottom: 22%;
-    font-size: 150%;
-    background-color: rgba(255, 255, 255,0.6);
+.css_logo {
+    width: 70px;
+    height: 31px;
 }
-.picletgo {
+.picText {
     position: relative;
-    bottom: 22%;
-    font-size: 150%;
-    background-color: rgba(255, 255, 255,0.6);
-}
-.picvalue {
-    position: relative;
-    bottom: 22%;
+    bottom: 35%;
     font-size: 150%;
     background-color: rgba(255, 255, 255,0.6);
 }

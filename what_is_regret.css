@@ -10,6 +10,13 @@ header {
     padding: 15px;
     text-align: center;
 }
+footer {
+    flex: 4;
+    order: 4;
+    font-size: 90%;
+    margin-top: 15px;
+    text-align: center;
+}
 nav{
     flex: 4;
     order: 2;
@@ -18,12 +25,13 @@ nav{
     padding-top: 13px;
     font-size: 110%;
 }
-section {
+.content {
     flex: 4;
     order: 3;
     width: 100%;
 }
 aside {
+    flex: 1.5;
     gap: 15px;
     padding: 15px;
     background-color: whitesmoke;
@@ -42,6 +50,14 @@ img.paragraph_pic {
     min-width: 280px;
     position: relative;
     float: none;
+}
+.html_logo {
+    width: 31px;
+    height: 31px;
+}
+.css_logo {
+    width: 70px;
+    height: 31px;
 }
 .nav_list {
     list-style-type: none; /* To remove the bullets */
@@ -87,7 +103,7 @@ a:active {
     font-size: 110%;
     letter-spacing: 0.52px;
    } 
-   section {
+   .content {
     display: flex;
     gap: 20px;
    }
@@ -98,7 +114,7 @@ a:active {
     float: none;
     width: 130px;
    }
-   article {
+   main {
     font-size: 110%;
     letter-spacing: 0.31px;
    }
